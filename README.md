@@ -23,13 +23,9 @@ This simple project is a great exercise in layout, styling, and design precision
 
 ### Screenshot
 Here is a link to the images of my final solution:
-<<<<<<< HEAD
-[Screentshot of final solution - Desktop View](Final (Desktop View).png)
-[Screentshot of final solution - Mobile View](Final (Mobile View).png)
-=======
-![Screentshot of final solution - Desktop View](Final (Desktop View).png)
-![Screentshot of final solution - Mobile View](Final (Mobile View).png)
->>>>>>> da09632 (Update: Fixed errors)
+
+- [Desktop View](images/final-desktop.png)
+- [Mobile View](images/final-mobile.png)
 
 
 ### Links
