@@ -1,0 +1,118 @@
+
+@media (max-width: 375px) {
+  #blog-card {
+    width: 90%;      /* instead of fixed 360px */
+    height: auto;    /* let it grow naturally */
+  }
+
+  h2 {
+    font-size: 1.1rem; /* slightly smaller */
+  }
+
+  #subtitle {
+    font-size: 0.9rem;
+  }
+}
+
+    body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    color: hsl(0, 0%, 7%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#wrapper{
+    padding: 10px;
+}
+
+a{
+   text-decoration: none; 
+   color: hsl(0, 0%, 7%) ;
+}
+
+a:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+#blog-card {
+    width: 100%;
+    max-width: 360px; /* it won’t get bigger than 360px on desktop */
+    height: auto;     /* let content decide the height */
+    background-color: hsl(0, 0%, 100%);
+    padding: 1em;
+    border-radius: 18px;
+    box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
+    border: 1.5px solid black;
+}
+
+#image-wrapper{
+    padding-bottom: 10px;
+}
+
+#graphics-img{
+    display: flex;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;   
+}
+
+#published{
+    color: hsl(0, 0%, 7%);
+}
+
+#subtitle{
+   color: hsl(0, 0%, 42%);
+}
+
+#learning {
+  display: inline-block;     
+  background-color: hsl(47, 88%, 63%);  
+  padding: 4px 14px;          
+  border-radius: 5px;        
+  font-weight: 800;         
+}
+
+#profile-container{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#profile-icon{
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+}
+
+#profile-name{
+    font-weight: 800;
+}
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    font-weight: 500;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover{
+    font-weight: 800;
+}
