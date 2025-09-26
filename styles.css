@@ -17,8 +17,6 @@
 body{
 margin: 0;
 padding: 0;
-line-height: 1.6;
-word-spacing: 1.4px;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -28,6 +26,8 @@ font-family: 'Figtree', sans-serif;
 font-size: 16px;
 color: hsl(0, 0%, 7%);
 }
+/* Update (26/09): Removed the line-height and word-spacing */
+
 
 .container{
     display: flex;
@@ -41,6 +41,11 @@ color: hsl(0, 0%, 7%);
     padding: 10px;
 }
 
+h2{
+    font-weight: 800;
+}
+/* Update (26/09): Added the font weight to the solution -- I forgot about it lol */
+
 a{
    text-decoration: none; 
    color: hsl(0, 0%, 7%) ;
@@ -53,12 +58,13 @@ a:hover{
 #blog-card {
     width: 100%;
     max-width: 360px; 
-    height: auto;     
+    height: auto;   
+    line-height: 1.5;  
     background-color: hsl(0, 0%, 100%);
     padding: 1em;
     border-radius: 18px;
     box-shadow: 10px 10px 0px rgba(0, 0, 0, 1);
-    border: 1.5px solid black;
+    border: 1.75px solid black;
 }
 
 #image-wrapper{
@@ -101,8 +107,8 @@ a:hover{
 
 
 #profile-icon{
-    height: 36px;
-    width: 36px;
+    height: 34px;
+    width: 34px;
     margin-right: 15px;
 }
 /* Update (26/09): Decreased the overall size of the profile photo to match the provided design preview, increased the right margin of the image to separate the name of the profile from the profile photo */
@@ -112,13 +118,13 @@ a:hover{
     font-weight: 800;
 }
 
-.attribution { 
+/* .attribution { 
     font-size: 12px; 
     text-align: center; 
     font-weight: 500;
 }
     
-/* .attribution a { 
+.attribution a { 
     color: hsl(228, 45%, 44%); 
 }
 
